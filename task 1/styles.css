@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #ffffff;
+  color: #333;
+  transition: background-color 0.4s ease, color 0.4s ease;
+  z-index: 1000;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.nav-menu li {
+  margin: 0 20px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  font-weight: bold;
+  color: inherit;
+  transition: color 0.3s, border-bottom 0.3s;
+  padding-bottom: 5px;
+}
+
+.nav-menu a:hover {
+  border-bottom: 2px solid currentColor;
+}
+
+.section {
+  height: 100vh;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.light-bg {
+  background: #f0f0f0;
+  color: #333;
+}
+
+.blue-bg {
+  background: #2196f3;
+}
+
+.green-bg {
+  background: #4caf50;
+}
+
+.dark-bg {
+  background: #2c3e50;
+}
+
+/* Navbar background variants */
+.nav-light {
+  background: #ffffff;
+  color: #333;
+}
+
+.nav-blue {
+  background: #2196f3;
+  color: #fff;
+}
+
+.nav-green {
+  background: #4caf50;
+  color: #fff;
+}
+
+.nav-dark {
+  background: #2c3e50;
+  color: #fff;
+}
